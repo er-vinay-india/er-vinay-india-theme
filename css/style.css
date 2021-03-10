@@ -1,0 +1,113 @@
+html {
+    background-color: #264653;
+}
+
+body {
+    /* background-color: #f1f1f1; */
+    background-color: #264653;
+    color: #111111;
+}
+
+.readable {
+    width: 920px;
+    margin: 0 auto;
+}
+
+header.readable {
+    border-bottom: 3px solid tomato;
+}
+
+footer.readable {
+    border-top: 3px solid tomato;
+}
+
+article, aside {
+    padding: 20px 0px;
+    padding-right: 10px;
+}
+
+.container {
+    background-color: #264653;
+}
+
+h1.main-head {
+    color: #E9C46A;
+}
+
+h1, p {
+    color: #E9C46A;
+}
+
+nav ul {
+    list-style: none;
+    padding-left:0;
+}
+
+nav ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    background-color:#E9C46A;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #264653;
+}
+
+.row {
+    display:flex;
+}
+
+.column1 {
+    flex:3;
+}
+
+.column2 {
+    flex:1;
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.img-container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.img-dsc {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.img-dsc:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+@keyframes fadeImg {
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+img {
+    animation: fadeImg 3s;
+}
